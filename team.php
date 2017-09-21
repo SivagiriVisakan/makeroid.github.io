@@ -31,8 +31,6 @@
                     <div class="item-social pt-2" style="font-color:white;">
                         <a href="https://twitter.com/Barreeeiroo" target="_blank"><span class="p-1 socicon-twitter socicon mbr-iconfont mbr-iconfont-social" style="color: rgb(255, 255, 255);" media-simple="true"></span></a>
                         <a href="https://instagram.com/Barreeeiroo" target="_blank"><span class="p-1 socicon-instagram socicon mbr-iconfont mbr-iconfont-social" style="color: rgb(255, 255, 255);" media-simple="true"></span></a>
-                        <a href="https://plus.google.com/+DBP7DBP" target="_blank"><span class="p-1 socicon-googleplus socicon mbr-iconfont mbr-iconfont-social" style="color: rgb(255, 255, 255);" media-simple="true"></span></a>
-                        <a href="https://snapchat.com/add/barreeeiroo" target="_blank"><span class="p-1 socicon-snapchat socicon mbr-iconfont mbr-iconfont-social" style="color: rgb(255, 255, 255);" media-simple="true"></span></a>
                         <a href="https://t.me/barreeeiroo" target="_blank"><span class="p-1 socicon-telegram socicon mbr-iconfont mbr-iconfont-social" style="color: rgb(255, 255, 255);" media-simple="true"></span></a>
                     </div>
                 </div>
@@ -122,7 +120,7 @@
                             </p>
                         </div>
                         <div class="item-role px-2">
-                            <p>Developer</p>
+                            <p>UI Designer</p>
                         </div>
                         <div class="item-social pt-2">
                           <div class="item-social pt-2">

@@ -3,9 +3,9 @@
   include "assets/templates/header.php";
 
   $servername = "localhost";
-  $username = "root";
+  $username = "";
   $password = "";
-  $dbname = "web";
+  $dbname = "";
   $conn = new mysqli($servername, $username, $password, $dbname);
   if ($conn->connect_error) {
       die("Connection failed: " . $conn->connect_error);
@@ -27,7 +27,7 @@
                         A modern app builder without coding<br>
                     </p>
                     <div class="mbr-section-btn align-center py-2">
-                        <a class="btn btn-md btn-primary-outline display-4" href="#features"><span class="mbri-arrow-down mbr-iconfont mbr-iconfont-btn"></span>SEE MORE FEATURES</a> <a class="btn btn-md btn-secondary display-4" href="http://builder.makeroid.tk" target="_blank"><span class="mbri-touch mbr-iconfont mbr-iconfont-btn"></span>START NOW!</a>
+                        <a class="btn btn-md btn-primary-outline display-4" href="#features"><span class="mbri-arrow-down mbr-iconfont mbr-iconfont-btn"></span>SEE MORE FEATURES</a> <a class="btn btn-md btn-secondary display-4" href="http://builder.makeroid.io" target="_blank"><span class="mbri-touch mbr-iconfont mbr-iconfont-btn"></span>START NOW!</a>
                     </div>
 
                     <div class="icons-media-container mbr-white">
@@ -89,9 +89,9 @@
                 </div>
                 <div class="card-box align-center">
                     <h4 class="card-title mbr-fonts-style display-7">
-                        InApp Purchases</h4>
+                        Monetization</h4>
                     <p class="mbr-text mbr-fonts-style display-7">
-                       Do you need to make an app for your business?<br>Makeroid has a component which allows you to make InApp Purchases in Google Play Store</p>
+                       Do you need to make an app for your business or just want to gain money?<br>Just add ads or InApp Purchases with us!</p>
 
                 </div>
             </div>
@@ -104,8 +104,7 @@
                     <h4 class="card-title mbr-fonts-style display-7">
                         Push Notifications</h4>
                     <p class="mbr-text mbr-fonts-style display-7">
-                       Our team is currently working to bring this amazing feature to Makeroid<br>This will allow you to send notifications to your users</p>
-
+                       Thanks to our amazing engineer team, you can use a background push notification system!<br>This will allow you to send notifications to your users even if the app is closed</p>
                 </div>
             </div>
 
@@ -117,7 +116,7 @@
                     <h4 class="card-title mbr-fonts-style display-7">
                         Material Design</h4>
                     <p class="mbr-text mbr-fonts-style display-7">
-                       We have added Material Design theme to all app builds with us. If you run Android +5.0, you will get an app with latest design templates from Google</p>
+                       We have added Material Design theme to all app builds with us. If you run Android 5.0+, you will get an app with latest design templates from Google</p>
 
                 </div>
             </div>
@@ -142,7 +141,7 @@
         <div class="row">
             <div class="media-container-column col-12 col-lg-3 col-md-4 offset-md-1">
                 <div class="mbr-section-btn align-left py-4">
-                    <a class="btn btn-primary display-4" target="_blank" href="https://status.makeroid.tk"><span class="mbri-question mbr-iconfont mbr-iconfont-btn"></span>
+                    <a class="btn btn-primary display-4" target="_blank" href="https://status.makeroid.io"><span class="mbri-question mbr-iconfont mbr-iconfont-btn"></span>
                     STATUS</a>
                 </div>
             </div>

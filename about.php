@@ -25,7 +25,7 @@
                         </div>
 
                         <div class="card-text">
-                            <h3 class="pt-3 pb-3 mbr-fonts-style display-2">+<span class="count">100</span></h3>
+                            <h3 class="pt-3 pb-3 mbr-fonts-style display-2">+<span class="count">1000</span></h3>
                             <h4 class="mbr-content-title mbr-bold mbr-fonts-style display-7">
                                 Users</h4>
                             <p class="mbr-content-text mbr-fonts-style display-7">
@@ -41,7 +41,7 @@
                             <span class="mbr-iconfont mbri-mobile" media-simple="true"></span>
                         </div>
                         <div class="card-text">
-                            <h3 class="pt-3 pb-3 mbr-fonts-style display-2">+<span class="count">1000</span></h3>
+                            <h3 class="pt-3 pb-3 mbr-fonts-style display-2">+<span class="count">3000</span></h3>
                             <h4 class="mbr-content-title mbr-bold mbr-fonts-style display-7">
                                 Apps built</h4>
                             <p class="mbr-content-text mbr-fonts-style display-7">
@@ -65,7 +65,7 @@
             </div>
             <div class="media-container-column col-12 col-lg-3 col-md-4">
                 <div class="mbr-section-btn align-right py-4">
-                    <a class="btn btn-primary display-4" href="https://appinventor.mit.edu" target="_blank">CHECK THEIR SITE</a>
+                    <a class="btn btn-primary display-4" href="http://appinventor.mit.edu" target="_blank">CHECK THEIR SITE</a>
                 </div>
             </div>
         </div>

@@ -2,25 +2,15 @@
 RewriteEngine On
 RewriteBase /
 
-# Browser Caching
-ExpiresActive On
-ExpiresDefault A0
-<FilesMatch “\.(gif|jpg|jpeg|png|swf)$”>
-# 2 weeks
-ExpiresDefault A1209600
-Header append Cache-Control “public”
-</FilesMatch>
-<FilesMatch “\.(js|css)$”>
-# 3 days
-ExpiresDefault A259200
-Header append Cache-Control “proxy-revalidate”
-</FilesMatch>
-
 # Rewrite to www
-RewriteCond %{HTTP_HOST} !^localhost
-RewriteCond %{HTTP_HOST} !^www.makeroid.tk
+RewriteCond %{HTTP_HOST} ^makeroid.tk [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.makeroid.tk [NC]
+RewriteRule ^(.*)$ https://www.makeroid.io/$1 [L,R=301,NC]
+
+RewriteCond %{HTTP_HOST} !^$
+RewriteCond %{HTTP_HOST} !^www\. [NC]
 RewriteCond %{HTTPS}s ^on(s)|
-RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
 # Remove PHP extension
 RewriteCond %{REQUEST_FILENAME}\.php -f [NC]
@@ -46,8 +36,6 @@ ErrorDocument 503 /error/503.html
 Redirect 301 /files/companion.apk https://rink.hockeyapp.net/apps/93f5fed412b2457296f351cd0f1d824e
 
 
-# Forward Companion Download
-Redirect 301 /files/companion.apk https://rink.hockeyapp.net/apps/93f5fed412b2457296f351cd0f1d824e
 
 ###   FANCY INDEXING   ###
 

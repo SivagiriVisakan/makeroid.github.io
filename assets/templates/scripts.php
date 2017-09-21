@@ -1,4 +1,7 @@
 <script src="/assets/vendor/pace/pace.min.js"></script>
+<?php include_once("config/fab.php"); ?>
+<?php include_once("config/analytics.php"); ?>
+<?php include_once("config/adblocker.php"); ?>
 <script src="/assets/vendor/web/assets/jquery/jquery.min.js"></script>
 <script src="/assets/vendor/tether/tether.min.js"></script>
 <script src="/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
